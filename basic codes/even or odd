@@ -1,0 +1,8 @@
+# Ask the user for a number and convert the input string to an integer
+number = int(input("Enter a number to check if it's even or odd: "))
+
+# Check the remainder when divided by 2
+if number % 2 == 0:
+    print(f"{number} is an Even number.")
+else:
+    print(f"{number} is an Odd number.")
