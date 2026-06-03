@@ -1,0 +1,10 @@
+# Creating a list of fruits
+fruits = ["apple", "banana", "cherry"]
+
+# Adding an item to the list
+fruits.append("orange")
+
+# Looping through the list items
+print("Here is your fruit list:")
+for fruit in fruits:
+    print(f"- {fruit.capitalize()}")
